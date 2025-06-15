@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_templete/resources/values/app_colors.dart';
-import 'package:flutter_templete/themes/text_styles.dart';
+import 'package:goal_stream/resources/values/app_colors.dart';
+import 'package:goal_stream/themes/text_styles.dart';
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,

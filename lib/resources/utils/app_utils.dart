@@ -1,9 +1,9 @@
 import 'dart:developer';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_templete/resources/values/app_colors.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
+import 'package:goal_stream/resources/values/app_colors.dart';
 import '../../widgets/app_text/app_text.dart';
 
 class AppUtils {

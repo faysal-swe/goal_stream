@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_templete/resources/values/app_colors.dart';
+import 'package:goal_stream/resources/values/app_colors.dart';
 
 TextTheme appTextTheme = TextTheme(
   /// title large

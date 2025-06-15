@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_templete/localization/app_static_key.dart';
-import 'package:flutter_templete/widgets/app_text/app_text.dart';
+import 'package:goal_stream/widgets/app_text/app_text.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: AppText(title: AppStaticKey.helloWorld),
+        child: AppText(title: "Hello world", style: Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.black)),
       ),
     );
   }
